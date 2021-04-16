@@ -4,7 +4,7 @@ import React, { useState, useEffect } from "react";
 
 function App() {
   const [events, setEvents] = useState([]);
-  const PrestoAPI_URL = "URL";
+  const PrestoAPI_URL = "https://fest.prestoapi.com/api/getevt";
 
   const fetchEvents = async () => {
     try {
